@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
         niceTextView.setAlpha(0);
         bottomTextView = findViewById(R.id.bottomTextView);
         bottomTextView.setAlpha(0);
+        bottomTextView.setTranslationY(20);
         registerTextView = findViewById(R.id.registerTextView);
         registerTextView.setAlpha(0);
+        registerTextView.setTranslationY(20);
         loginButton = findViewById(R.id.loginButton);
         loginButton.setAlpha(0);
 
