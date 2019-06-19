@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
         layout = findViewById(R.id.layout);
         layout.setAlpha(0);
         layout.setTranslationY(20);
-        layout.animate().translationYBy(-20);
-        layout.animate().alpha(1).setDuration(1000);
+        layout.animate().translationYBy(-20).alpha(1).setDuration(1000);
     }
 }
